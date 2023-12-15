@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Blue_1">#00b4bd</color>
+    <color name="Blue_2">#D1EFFF</color>
+    <color name="Indigo_1">#F1ECFF</color>
+    <color name="Indigo_3">#D386FF</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#8F9193</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Availability">Available seats </string>
+    <string name="Confirmation">Ride Confirmation</string>
+    <string name="Destination">Drop off</string>
+    <string name="DestinationC">Drop off to gate </string>
+    <string name="DropOffTime">Drop off time</string>
+    <string name="DropOffTimeC">Drop off time at </string>
+    <string name="Email">Email</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="LOG_IN">Log in</string>
+    <string name="Logout">Available seats </string>
+    <string name="Name">Name</string>
+    <string name="Offered">Please choose your route </string>
+    <string name="Password">Password</string>
+    <string name="RideCancel">Cancel </string>
+    <string name="RideConfirm">Confirm </string>
+    <string name="SIGN_UP">Sign up</string>
+    <string name="Source">Pick up</string>
+    <string name="SourceC">your Pick up ride from</string>
+    <string name="Total">your total is 50LE per person </string>
+    <string name="app_name">CarPool</string>
+    <string name="college">Heading to college</string>
+    <string name="gcm_defaultSenderId" translatable="false">1044369586487</string>
+    <string name="google_api_key" translatable="false">AIzaSyB2oel--nviJKR6LwK39P7-gCsJBxOOZA8</string>
+    <string name="google_app_id" translatable="false">1:1044369586487:android:c5aebf1fab1058c73d42b2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2oel--nviJKR6LwK39P7-gCsJBxOOZA8</string>
+    <string name="google_storage_bucket" translatable="false">car-pool-ff8fd.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Heading home</string>
+    <string name="pickupT">Pick up time</string>
+    <string name="pickupTC">Pick up time at </string>
+    <string name="project_id" translatable="false">car-pool-ff8fd</string>
+    <string name="rePassword">retype Password</string>
+    <string name="recycler_title">Available routes</string>
+    <style name="Base.Theme.DriverApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.DriverApp" parent="Base.Theme.DriverApp"/>
+</resources>

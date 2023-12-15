@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1044369586487</string>
+    <string name="google_api_key" translatable="false">AIzaSyB2oel--nviJKR6LwK39P7-gCsJBxOOZA8</string>
+    <string name="google_app_id" translatable="false">1:1044369586487:android:c5aebf1fab1058c73d42b2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2oel--nviJKR6LwK39P7-gCsJBxOOZA8</string>
+    <string name="google_storage_bucket" translatable="false">car-pool-ff8fd.appspot.com</string>
+    <string name="project_id" translatable="false">car-pool-ff8fd</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CarPool</string>
+    <string name="LOG_IN">Log in</string>
+    <string name="SIGN_UP">Sign up</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="rePassword">retype Password</string>
+    <string name="Name">Name</string>
+    <string name="Source">Pick up</string>
+    <string name="Destination">Drop off</string>
+    <string name="college">Heading to college</string>
+    <string name="home">Heading home</string>
+    <string name="recycler_title">Available routes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pickupT">Pick up time</string>
+    <string name="DropOffTime">Drop off time</string>
+    <string name="Confirmation">Ride Confirmation</string>
+    <string name="SourceC">your Pick up ride from</string>
+    <string name="DestinationC">Drop off to gate </string>
+    <string name="pickupTC">Pick up time at </string>
+    <string name="DropOffTimeC">Drop off time at </string>
+    <string name="RideConfirm">Confirm </string>
+    <string name="RideCancel">Cancel </string>
+    <string name="Total">your total is 50LE per person </string>
+    <string name="Offered">Please choose your route </string>
+    <string name="Availability">Available seats </string>
+    <string name="Logout">Available seats </string>
+</resources>

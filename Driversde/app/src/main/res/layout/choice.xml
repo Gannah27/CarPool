@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Indigo_1">
+
+    <ImageView
+        android:id="@+id/imageView03"
+        android:layout_width="685dp"
+        android:layout_height="873dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fe6f1d8e0b99661841c1eadab6af843d" />
+
+    <Button
+        android:id="@+id/button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="314dp"
+        android:backgroundTint="@color/Indigo_3"
+        android:text="@string/college"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="58dp"
+        android:backgroundTint="@color/Indigo_3"
+        android:text="@string/home"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/button07"
+        app:layout_constraintTop_toBottomOf="@+id/button07" />
+
+    <ImageButton
+        android:id="@+id/imageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="152dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/Logout"
+        app:layout_constraintEnd_toEndOf="@+id/imageView03"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log_out_3596144__4_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

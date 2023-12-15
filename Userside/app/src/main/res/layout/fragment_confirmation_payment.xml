@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Indigo_1"
+    tools:context=".confirmationPayment">
+
+    <ImageView
+        android:id="@+id/imageView04"
+        android:layout_width="810dp"
+        android:layout_height="1018dp"
+        app:srcCompat="@drawable/fe6f1d8e0b99661841c1eadab6af843d"
+        tools:layout_editor_absoluteX="-218dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+    <TextView
+        android:id="@+id/textView09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/Confirmation"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SourceC"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pickupTC"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DestinationC"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DropOffTimeC"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Total"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="@color/Indigo_3"
+        android:gravity="center"
+        android:text="@string/RideConfirm"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/Indigo_3"
+        android:gravity="center"
+        android:text="@string/RideCancel"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
