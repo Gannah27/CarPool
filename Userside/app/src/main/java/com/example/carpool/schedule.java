@@ -12,11 +12,11 @@ public class schedule {
     private String PickT;
     private String PickP;
 
-    public schedule(String dropT, String dropP, String pickT, String pickP) {
-        DropT = dropT;
-        DropP = dropP;
-        PickT = pickT;
-        PickP = pickP;
+    public schedule(String DropT, String DropP, String PickT, String PickP) {
+        this.DropT = DropT;
+        this.DropP = DropP;
+        this.PickT = PickT;
+        this.PickP = PickP;
     }
 
     public void setId(int id) {
@@ -42,4 +42,7 @@ public class schedule {
     public String getPickP() {
         return PickP;
     }
+
+
+
 }

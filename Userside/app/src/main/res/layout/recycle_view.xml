@@ -2,19 +2,22 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Blue_2">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView01"
-        android:name="com.example.carpool.Recycle"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle01"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="630dp"
+        android:layout_marginBottom="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView08"
-        app:layout_constraintVertical_bias="1.0" />
+        tools:listitem="@layout/rout_item" />
 
     <TextView
         android:id="@+id/textView08"
@@ -26,7 +29,7 @@
         android:text="@string/recycler_title"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView"
+        app:layout_constraintBottom_toTopOf="@+id/recycle01"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

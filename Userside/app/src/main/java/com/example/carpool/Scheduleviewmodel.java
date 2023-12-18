@@ -1,21 +1,25 @@
 package com.example.carpool;
 
 import android.app.Application;
+import android.util.Log;
 
-import androidx.annotation.NonNull;
+import androidx.annotation.LongDef;
+import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import java.io.Closeable;
 import java.util.List;
 
-public class Scheduleviewmodel extends ViewModel {
+public class Scheduleviewmodel extends AndroidViewModel {
     private ScheduleRepository mschedrepo;
     private LiveData<List<schedule>> mAllsched;
 
     public Scheduleviewmodel(Application application) {
-        mschedrepo=new ScheduleRepository(application);
-        mAllsched=mschedrepo.getAllschedule();
+        super(application);
+        Log.d("SET", "Scheduleviewmodel: 5 ");
+        mschedrepo= new ScheduleRepository(application);
+        mAllsched=mschedrepo.getallschedule();
+        Log.d("SET", mAllsched.toString());
 
     }
     public void insert(schedule sched){

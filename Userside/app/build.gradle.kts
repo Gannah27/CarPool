@@ -41,7 +41,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.appcompat:appcompat: 1.3.0-rc01")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
@@ -53,13 +53,13 @@ dependencies {
     val room_version = "2.6.1"
 
     implementation("androidx.room:room-runtime:$room_version")
-    annotationProcessor("androidx.room:room-compiler:$room_version")
+
 
     kapt("androidx.room:room-compiler:$room_version")
 
     val lifecycle_version = "2.1.0"
     implementation("androidx.lifecycle:lifecycle-extensions:$lifecycle_version")
-    annotationProcessor ("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+    kapt ("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
 
 
 }

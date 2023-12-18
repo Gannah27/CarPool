@@ -38,9 +38,10 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:text="@string/pickupTC"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="150dp"
         android:gravity="center"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -50,7 +51,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/DestinationC"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="150dp"
         android:gravity="center"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -60,28 +62,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/DropOffTimeC"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="150dp"
         android:gravity="center"
         android:textSize="34sp"
         android:textStyle="bold"
         />
+
     <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Total"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="150dp"
         android:gravity="center"
+        android:text="@string/Total"
         android:textSize="50sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/Button09"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="500dp"
         android:backgroundTint="@color/Indigo_3"
         android:gravity="center"
         android:text="@string/RideConfirm"
@@ -93,9 +97,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="130dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="570dp"
         android:backgroundTint="@color/Indigo_3"
-        android:gravity="center"
+
         android:text="@string/RideCancel"
         android:textSize="34sp"
         android:textStyle="bold" />

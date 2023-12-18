@@ -1,6 +1,7 @@
 package com.example.carpool;
 
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.room.Database;
@@ -11,39 +12,45 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {schedule.class}, version = 1, exportSchema = false)
+@Database(entities = {schedule.class}, version = 1)
 public abstract class ScheduleRoomDatabase extends RoomDatabase {
 
     public abstract scheduleDao schedDao();
-
-    private static volatile ScheduleRoomDatabase INSTANCE;
-    private static final int NUMBER_OF_THREADS = 4;
     static final ExecutorService databaseWriteExecutor =
-            Executors.newFixedThreadPool(NUMBER_OF_THREADS);
+            Executors.newFixedThreadPool(4);
 
-    static ScheduleRoomDatabase getDatabase(final Context context) {
-        if (INSTANCE == null) {
+
+    private static volatile ScheduleRoomDatabase instance;
+
+
+
+    static  ScheduleRoomDatabase getDatabase( Context context) {
+        if (instance == null) {
+            Log.d("TAG", "getDatabase: heree");
             synchronized (ScheduleRoomDatabase.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
+                if (instance == null) {
+                    Log.d("TAG", "getDatabase: theree");
+                    instance = Room.databaseBuilder(context.getApplicationContext(),
                                     ScheduleRoomDatabase.class, "schedule_database")
+                            .addCallback(sRoomDatabaseCallback)
                             .build();
+                    Log.d("SETDB", instance.toString());
                 }
             }
         }
-        return INSTANCE;
+        return instance;
     }
     private static RoomDatabase.Callback sRoomDatabaseCallback = new RoomDatabase.Callback() {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
-
+            Log.d("SET", "DBCALLBACK");
             // If you want to keep data through app restarts,
             // comment out the following block
             databaseWriteExecutor.execute(() -> {
                 // Populate the database in the background.
                 // If you want to start with more words, just add them.
-                scheduleDao dao = INSTANCE.schedDao();
+                scheduleDao dao = instance.schedDao();
 
 
                 schedule sche = new schedule("4:30","Gate4","5:30","nasrcity");
