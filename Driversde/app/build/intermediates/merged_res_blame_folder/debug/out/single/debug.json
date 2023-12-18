@@ -36,12 +36,12 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\drawable__0177246c6afb75e3a12615e107105a7.jpg.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\drawable\\_0177246c6afb75e3a12615e107105a7.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -56,16 +56,16 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\layout\\home_page.xml"
     },
     {
-        "merged": "com.example.driverapp-merged_res-36:/layout_home_page.xml.flat",
-        "source": "com.example.driverapp-main-38:/layout/home_page.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\drawable_background.png.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-main-38:\\drawable\\background.png"
+    },
+    {
+        "merged": "com.example.driverapp-merged_res-36:/layout_confirmation.xml.flat",
+        "source": "com.example.driverapp-main-38:/layout/confirmation.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.driverapp-merged_res-36:\\layout_confirmation.xml.flat",

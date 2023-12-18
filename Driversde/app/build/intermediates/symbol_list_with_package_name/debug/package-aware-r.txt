@@ -3289,6 +3289,9 @@ id editText02
 id editText04
 id editText05
 id editText06
+id editText07
+id editText08
+id editText09
 id editTextNumberDecimal01
 id editTextText03
 id edit_query
@@ -3532,8 +3535,6 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner01
-id spinner02
 id spline
 id split_action_bar
 id spread
@@ -3589,6 +3590,7 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3843,6 +3845,7 @@ mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
 string Availability
+string Car_number
 string Confirmation
 string Destination
 string DestinationC

@@ -52,6 +52,14 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="com.example.driverapp.Confirm_ride"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.driverapp.offerride"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
             android:exported="true"

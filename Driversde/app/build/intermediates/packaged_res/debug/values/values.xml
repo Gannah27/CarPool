@@ -8,6 +8,7 @@
     <color name="grey">#8F9193</color>
     <color name="white">#FFFFFFFF</color>
     <string name="Availability">Available seats </string>
+    <string name="Car_number">Car Number </string>
     <string name="Confirmation">Ride Confirmation</string>
     <string name="Destination">Drop off</string>
     <string name="DestinationC">Drop off to gate </string>

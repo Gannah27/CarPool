@@ -26,4 +26,5 @@
     <string name="Offered">Please choose your route </string>
     <string name="Availability">Available seats </string>
     <string name="Logout">Available seats </string>
+    <string name="Car_number">Car Number </string>
 </resources>

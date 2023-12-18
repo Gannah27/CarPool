@@ -29,6 +29,9 @@ id editText02
 id editText04
 id editText05
 id editText06
+id editText07
+id editText08
+id editText09
 id editTextNumberDecimal01
 id editTextText03
 id imageButton01
@@ -37,8 +40,6 @@ id imageView01
 id imageView03
 id imageView04
 id imageView2
-id spinner01
-id spinner02
 id textView01
 id textView02
 id textView03
@@ -52,6 +53,7 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 layout choice
 layout confirmation
 layout home_page
@@ -61,6 +63,7 @@ layout sign_up
 mipmap ic_launcher
 mipmap ic_launcher_round
 string Availability
+string Car_number
 string Confirmation
 string Destination
 string DestinationC
