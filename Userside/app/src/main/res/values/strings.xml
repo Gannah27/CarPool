@@ -13,15 +13,19 @@
     <string name="home">Heading home</string>
     <string name="recycler_title">Available routes</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="pickupT">Pick up time</string>
-    <string name="DropOffTime">Drop off time</string>
+    <string name="carnumber">car number</string>
+    <string name="Date">Date of ride</string>
     <string name="Confirmation">Ride Confirmation</string>
     <string name="SourceC">your Pick up ride from</string>
     <string name="DestinationC">Drop off to gate </string>
-    <string name="pickupTC">Pick up time at </string>
-    <string name="DropOffTimeC">Drop off time at </string>
+    <string name="carnumberc">car number</string>
+    <string name="DateC">Date </string>
     <string name="RideConfirm">Confirm </string>
     <string name="RideCancel">Cancel </string>
     <string name="Total">your total is 50LE </string>
     <string name="Logout">Log out </string>
+    <string name="recycler_Cart">Your cart</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
+
 </resources>

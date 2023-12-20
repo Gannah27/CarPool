@@ -10,9 +10,11 @@
         android:id="@+id/imageView"
         android:layout_width="660dp"
         android:layout_height="1000dp"
-        app:layout_constraintBaseline_toBaselineOf="parent"
-        app:srcCompat="@drawable/fe6f1d8e0b99661841c1eadab6af843d"
-        tools:layout_editor_absoluteX="-125dp" />
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fe6f1d8e0b99661841c1eadab6af843d" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,27 +29,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="11dp"
+        android:contentDescription="@string/card"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton02"
+        android:background="@drawable/image_button_selector"
         app:srcCompat="@drawable/cardpayment1" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
+        android:contentDescription="@string/cash"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/imageButton01"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/image_button_selector"
         app:srcCompat="@drawable/cash1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button06"
         android:layout_width="170dp"
         android:layout_height="64dp"
         android:layout_marginTop="181dp"
@@ -56,7 +62,7 @@
         android:backgroundTint="@color/Indigo_3"
         android:text="@string/Confirmation"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton02"
+        app:layout_constraintTop_toTopOf="@+id/imageButton02" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -48,6 +48,7 @@
         <activity
             android:name=".confirmationPayment"
             android:exported="true" />
+
     </application>
 
 </manifest>

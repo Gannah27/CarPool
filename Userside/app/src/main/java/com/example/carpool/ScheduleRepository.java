@@ -25,7 +25,7 @@ public class ScheduleRepository {
     private LiveData<List<schedule>> getAllsched;
     FirebaseDatabase dbf;
     DatabaseReference databaseReference;
-    ScheduleRealtimedb df;
+
 
     public ScheduleRepository(Application app) {
         Log.d("SET", "ScheduleRepository: here");
