@@ -3292,7 +3292,7 @@ id editText06
 id editText07
 id editText08
 id editText09
-id editTextNumberDecimal01
+id editTextDate01
 id editTextText03
 id edit_query
 id elastic
@@ -3844,9 +3844,9 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
-string Availability
 string Car_number
 string Confirmation
+string Date
 string Destination
 string DestinationC
 string DropOffTime

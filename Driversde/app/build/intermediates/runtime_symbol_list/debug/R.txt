@@ -3291,7 +3291,7 @@ int id editText06 0x7f0800c0
 int id editText07 0x7f0800c1
 int id editText08 0x7f0800c2
 int id editText09 0x7f0800c3
-int id editTextNumberDecimal01 0x7f0800c4
+int id editTextDate01 0x7f0800c4
 int id editTextText03 0x7f0800c5
 int id edit_query 0x7f0800c6
 int id elastic 0x7f0800c7
@@ -3843,9 +3843,9 @@ int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
 int raw firebase_common_keep 0x7f0f0000
-int string Availability 0x7f100000
-int string Car_number 0x7f100001
-int string Confirmation 0x7f100002
+int string Car_number 0x7f100000
+int string Confirmation 0x7f100001
+int string Date 0x7f100002
 int string Destination 0x7f100003
 int string DestinationC 0x7f100004
 int string DropOffTime 0x7f100005

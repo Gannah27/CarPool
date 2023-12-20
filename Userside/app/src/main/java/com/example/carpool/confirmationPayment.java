@@ -17,9 +17,9 @@ public class confirmationPayment extends AppCompatActivity {
         Intent intent = getIntent();
 
         String DropP = intent.getStringExtra("getDropP");
-        String getDropT = intent.getStringExtra("getDropT");
+        String getDropT = intent.getStringExtra("getDate_s");
         String getPickP = intent.getStringExtra("getPickP");
-        String getPickT = intent.getStringExtra("getPickT");
+        String getPickT = intent.getStringExtra("getCarnumber");
         pickup=findViewById(R.id.textView10);
         pickupT=findViewById(R.id.textView11);
         dropoff=findViewById(R.id.textView12);

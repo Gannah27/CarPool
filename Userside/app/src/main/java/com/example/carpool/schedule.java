@@ -7,16 +7,38 @@ import androidx.room.PrimaryKey;
 public class schedule {
     @PrimaryKey(autoGenerate = true)
     private int id;
-    private String DropT;
-    private String DropP;
-    private String PickT;
     private String PickP;
+    private String DropP;
+    private String Date_s;
 
-    public schedule(String DropT, String DropP, String PickT, String PickP) {
-        this.DropT = DropT;
-        this.DropP = DropP;
-        this.PickT = PickT;
-        this.PickP = PickP;
+    private String carnumber;
+
+
+    public void setDate_s(String date_s) {
+        Date_s = date_s;
+    }
+
+    public void setDropP(String dropP) {
+        DropP = dropP;
+    }
+
+    public void setCarnumber(String carnumber) {
+        this.carnumber = carnumber;
+    }
+
+    public void setPickP(String pickP) {
+        PickP = pickP;
+    }
+
+
+    public schedule(String pickP, String dropP, String date_s, String carnumber) {
+        PickP = pickP;
+        DropP = dropP;
+        Date_s = date_s;
+        this.carnumber = carnumber;
+    }
+
+    public schedule() {
     }
 
     public void setId(int id) {
@@ -27,16 +49,16 @@ public class schedule {
         return id;
     }
 
-    public String getDropT() {
-        return DropT;
+    public String getDate_s() {
+        return Date_s;
     }
 
     public String getDropP() {
         return DropP;
     }
 
-    public String getPickT() {
-        return PickT;
+    public String getCarnumber() {
+        return carnumber;
     }
 
     public String getPickP() {

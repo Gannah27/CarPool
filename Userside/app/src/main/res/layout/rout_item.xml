@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:background="@color/grey"
-    android:padding="3dp">
+    android:elevation="8dp"
+    android:padding="3dp"
+    app:circularflow_radiusInDP="20dp">
 
     <TextView
         android:id="@+id/textView04"

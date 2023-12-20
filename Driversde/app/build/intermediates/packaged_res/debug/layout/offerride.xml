@@ -12,7 +12,7 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -29,8 +29,8 @@
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal01"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal01" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextDate01"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate01" />
 
     <TextView
         android:id="@+id/textView2"
@@ -49,11 +49,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/Source"
         android:textSize="24sp"
         android:textStyle="bold"
-
         app:layout_constraintBottom_toTopOf="@+id/editText08"
         app:layout_constraintEnd_toEndOf="@+id/editText08"
         app:layout_constraintStart_toStartOf="@+id/editText08"
@@ -63,11 +61,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
         android:layout_marginStart="8dp"
         android:layout_marginBottom="11dp"
-        android:hint="@string/Availability"
         android:text="@string/Offered"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -76,14 +71,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal01"
+        android:id="@+id/editTextDate01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="89dp"
+        android:layout_marginStart="100dp"
         android:layout_marginBottom="38dp"
         android:ems="10"
-        android:hint="@string/Availability"
-        android:inputType="numberDecimal"
+        android:hint="@string/Date"
+        android:inputType="datetime"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/button06"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,13 +89,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="48dp"
         android:layout_marginBottom="30dp"
-        android:hint="@string/Availability"
-        android:text="@string/Availability"
+        android:hint="@string/Date"
+        android:text="@string/Date"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal01"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDate01"
         app:layout_constraintEnd_toEndOf="@+id/editText09"
         app:layout_constraintTop_toBottomOf="@+id/editText09" />
 
@@ -155,8 +150,9 @@
 
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal01"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal01"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDate01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextDate01"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,7 +18,7 @@ public class Scheduleviewmodel extends AndroidViewModel {
         super(application);
         Log.d("SET", "Scheduleviewmodel: 5 ");
         mschedrepo= new ScheduleRepository(application);
-        mAllsched=mschedrepo.getallschedule();
+        mAllsched=mschedrepo.getGetAllsched();
         Log.d("SET", mAllsched.toString());
 
     }

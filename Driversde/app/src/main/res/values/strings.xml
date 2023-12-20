@@ -24,7 +24,7 @@
     <string name="RideCancel">Cancel </string>
     <string name="Total">your total is 50LE per person </string>
     <string name="Offered">Please choose your route </string>
-    <string name="Availability">Available seats </string>
+    <string name="Date">Date of ride </string>
     <string name="Logout">Available seats </string>
     <string name="Car_number">Car Number </string>
 </resources>

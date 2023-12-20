@@ -60,7 +60,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="92dp"
         android:gravity="center"
-        android:text="@string/Availability"
+        android:text="@string/Date"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

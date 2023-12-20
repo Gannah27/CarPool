@@ -12,7 +12,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {schedule.class}, version = 1)
+@Database(entities = {schedule.class}, version = 2)
 public abstract class ScheduleRoomDatabase extends RoomDatabase {
 
     public abstract scheduleDao schedDao();
@@ -47,7 +47,7 @@ public abstract class ScheduleRoomDatabase extends RoomDatabase {
             Log.d("SET", "DBCALLBACK");
             // If you want to keep data through app restarts,
             // comment out the following block
-            databaseWriteExecutor.execute(() -> {
+           /* databaseWriteExecutor.execute(() -> {
                 // Populate the database in the background.
                 // If you want to start with more words, just add them.
                 scheduleDao dao = instance.schedDao();
@@ -57,7 +57,7 @@ public abstract class ScheduleRoomDatabase extends RoomDatabase {
                 dao.insert(sche);
                 sche = new schedule("4:30","Gate3","6:30","masrgdedida");
                 dao.insert(sche);
-            });
+            });*/
         }
     };
 }

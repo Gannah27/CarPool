@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.lifecycle.LiveData;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -44,9 +43,9 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.MyViewHolder> {
     public void onBindViewHolder(MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         schedule item = mitemArrayList.get(position);
-        holder.txt_dropT.setText(item.getDropT());
+        holder.txt_dropT.setText(item.getDate_s());
         holder.txt_drop.setText(item.getDropP());
-        holder.txt_pickT.setText(item.getPickT());
+        holder.txt_pickT.setText(item.getCarnumber());
         holder.txt_pick.setText(item.getPickP());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
