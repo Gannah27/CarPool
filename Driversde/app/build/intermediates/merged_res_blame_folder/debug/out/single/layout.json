@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/choice.xml",
+        "source": "com.example.driverapp-main-50:/layout/choice.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/sign_up.xml",
+        "source": "com.example.driverapp-main-50:/layout/sign_up.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/confirmation.xml",
+        "source": "com.example.driverapp-main-50:/layout/confirmation.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/activity_cart.xml",
+        "source": "com.example.driverapp-main-50:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/popup_layout.xml",
+        "source": "com.example.driverapp-main-50:/layout/popup_layout.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/item.xml",
+        "source": "com.example.driverapp-main-50:/layout/item.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/sign_in.xml",
+        "source": "com.example.driverapp-main-50:/layout/sign_in.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/offerrideu_h.xml",
+        "source": "com.example.driverapp-main-50:/layout/offerrideu_h.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/offerrideh_u.xml",
+        "source": "com.example.driverapp-main-50:/layout/offerrideh_u.xml"
+    },
+    {
+        "merged": "com.example.driverapp-mergeDebugResources-47:/layout/home_page.xml",
+        "source": "com.example.driverapp-main-50:/layout/home_page.xml"
+    }
+]

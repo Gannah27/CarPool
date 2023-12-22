@@ -18,18 +18,8 @@
       <change beforePath="$PROJECT_DIR$/../Userside/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Userside/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Userside/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/ScheduleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/ScheduleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/ScheduleRoomDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/ScheduleRoomDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/confirmationPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/java/com/example/carpool/confirmationPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/activity_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/activity_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/fragment_confirmation_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/fragment_confirmation_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/recycle_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/recycle_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/rout_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/rout_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/choicelayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/layout/choicelayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Userside/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Userside/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +27,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\HP\.android\avd\Pixel_2_API_29.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\HP\.android\avd\Pixel_2_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -92,6 +83,11 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="android.template.192115172">
+      <recent name="com.example.driverapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="DriverApp.app.main" />

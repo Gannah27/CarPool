@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="26"
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,6 +31,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.DriverApp" >
         <activity
+            android:name="com.example.driverapp.Cart"
+            android:exported="false"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/Theme.DriverApp" />
+        <activity
             android:name="com.example.driverapp.home_page"
             android:exported="true" >
             <intent-filter>
@@ -41,24 +46,22 @@
         </activity>
         <activity
             android:name="com.example.driverapp.sign_up"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.driverapp.Sign_in"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.driverapp.Choice"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.driverapp.Confirm_ride"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
-            android:name="com.example.driverapp.offerride"
-            android:exported="true" >
-        </activity>
+            android:name="com.example.driverapp.offerrideh_u"
+            android:exported="true" />
+        <activity
+            android:name="com.example.driverapp.offerideu_h"
+            android:exported="true" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -118,18 +121,6 @@
         </service>
 
         <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.driverapp.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.driverapp.androidx-startup"
             android:exported="false" >
@@ -143,6 +134,24 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.driverapp.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"

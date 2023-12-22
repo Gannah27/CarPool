@@ -1,0 +1,52 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+<ImageView
+    android:id="@+id/imageView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="4dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/_6142_hd" />
+
+<Button
+    android:id="@+id/button02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="82dp"
+    android:backgroundTint="@color/Indigo_3"
+    android:text="@string/SIGN_UP"
+    app:layout_constraintBottom_toBottomOf="@+id/button01"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/button01" />
+
+<Button
+    android:id="@+id/button01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="-360dp"
+    android:layout_marginBottom="119dp"
+    android:backgroundTint="@color/Indigo_3"
+    android:text="@string/LOG_IN"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/imageView01" />
+
+<TextView
+    android:id="@+id/textView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="44dp"
+    android:text="ASU "
+    android:textColor="@color/Blue_1"
+    android:textSize="96sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

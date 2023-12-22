@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/fe6f1d8e0b99661841c1eadab6af843d" />
 
     <Button
-        android:id="@+id/button07"
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="314dp"
@@ -27,17 +27,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
         android:id="@+id/button08"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="64dp"
         android:backgroundTint="@color/Indigo_3"
         android:text="@string/home"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/button07"
-        app:layout_constraintTop_toBottomOf="@+id/button07" />
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="@color/Indigo_3"
+        android:text="@string/MyCart"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
 
     <ImageButton
         android:id="@+id/imageButton01"

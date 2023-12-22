@@ -5,6 +5,27 @@ public class Drivers {
     String DropP;
     String Date_s;
     String carnumber;
+    String Firebase;
+    String confirm;
+
+    public String getConfirm() {
+        return confirm;
+    }
+
+    public void setConfirm(String confirm) {
+        this.confirm = confirm;
+    }
+
+    public Drivers(String pickP, String dropP, String date_s, String carnumber, String firebase, String confirm) {
+        PickP = pickP;
+        DropP = dropP;
+        Date_s = date_s;
+        this.carnumber = carnumber;
+        Firebase = firebase;
+        this.confirm=confirm;
+    }
+
+
 
     public String getPickP() {
         return PickP;
@@ -41,10 +62,11 @@ public class Drivers {
     public Drivers() {
     }
 
-    public Drivers(String pickP, String dropP, String date_s, String carnumber) {
-        PickP = pickP;
-        DropP = dropP;
-        Date_s = date_s;
-        this.carnumber = carnumber;
+    public String getFirebase() {
+        return Firebase;
+    }
+
+    public void setFirebase(String firebase) {
+        Firebase = firebase;
     }
 }

@@ -24,8 +24,9 @@
     <string name="RideCancel">Cancel </string>
     <string name="Total">your total is 50LE </string>
     <string name="Logout">Log out </string>
-    <string name="recycler_Cart">Your cart</string>
+    <string name="recycler_Cart"> Cart</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
+    <string name="Time_disable">Time constraint</string>
 
 </resources>

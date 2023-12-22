@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.driverapp-mergeDebugResources-34:/values-v22/values-v22.xml",
+            "outputFile": "com.example.driverapp-mergeDebugResources-46:/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\ff92050ab482929c4d0f044d21af76fb\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
