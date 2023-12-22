@@ -45,7 +45,7 @@ public class Payment extends AppCompatActivity {
         String getDateS = info.getStringExtra("getDate_s");
         String getPickP = info.getStringExtra("getPickP");
         String getCarnumber = info.getStringExtra("getCarnumber");
-
+        String rider=info.getStringExtra("Rider");
 
         card.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,7 +78,7 @@ public class Payment extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent cart = new Intent(getApplicationContext(),Cart.class);
-                User user=new User(getPickP,DropP,getCarnumber,getDateS,payment,user_auth.getCurrentUser().toString());
+                User user=new User(getPickP,DropP,getCarnumber,getDateS,payment,user_auth.getCurrentUser().getUid(),rider);
                 startActivity(cart);
                 new UpdateScheduleTask().execute(user);
                 finish();
@@ -97,4 +97,5 @@ public class Payment extends AppCompatActivity {
 
 
     }
+
 }

@@ -101,6 +101,7 @@ public class Cart extends AppCompatActivity   {
                                 showConfirmationDialog(reference.child(item.getFirebase())); //11:30pm
                             } else {
                                 Toast.makeText(Cart.this, "You have missed time of confirmation", Toast.LENGTH_SHORT).show();
+
                             }
                         } else {
                             Toast.makeText(Cart.this, "You have missed time of confirmation", Toast.LENGTH_SHORT).show();

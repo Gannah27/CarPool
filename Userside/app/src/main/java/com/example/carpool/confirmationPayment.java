@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 public class confirmationPayment extends AppCompatActivity {
     TextView pickup,pickupT,dropoff,dropoffT;
     Button confirm ,cancel;
+   // UserDb user=UserDb.getDatabase(this);
+    //UserDao userDao=user.userDao();
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class confirmationPayment extends AppCompatActivity {
         String getDateS = intent.getStringExtra("getDate_s");
         String getPickP = intent.getStringExtra("getPickP");
         String getCarnumber = intent.getStringExtra("getCarnumber");
+        String rider= intent.getStringExtra("Rider");
         pickup=findViewById(R.id.textView10);
         pickupT=findViewById(R.id.textView11);
         dropoff=findViewById(R.id.textView12);
@@ -41,6 +45,7 @@ public class confirmationPayment extends AppCompatActivity {
                 confirm.putExtra("getDate_s",getDateS);
                 confirm.putExtra("getPickP",getPickP);
                 confirm.putExtra("getCarnumber",getCarnumber);
+                confirm.putExtra("Rider",rider);
                 startActivity(confirm);
                 finish();
 

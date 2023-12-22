@@ -1,30 +1,28 @@
+
 package com.example.carpool;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+        import android.annotation.SuppressLint;
+        import android.content.Context;
+        import android.util.Log;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
+        import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
+        import androidx.annotation.NonNull;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
-import java.util.List;
+        import java.util.ArrayList;
+        import java.util.List;
+
 
 public class User_adapter extends RecyclerView.Adapter<User_adapter.MyViewHolder> {
     Context context;
     List<User> mitemArrayList=new ArrayList<>();
-    private ItemClicklistener clicklistener;
 
-    /*public Myadapter(Context context,List<schedule> mitemArrayList, ItemClicklistener clicklistener) {
-        this.context = context;
-        this.clicklistener=clicklistener;
-        this.mitemArrayList=mitemArrayList;
-        Log.d("SET6", "adapter null");
-    }*/
+
+
+
     public User_adapter() {
 
 
@@ -45,15 +43,9 @@ public class User_adapter extends RecyclerView.Adapter<User_adapter.MyViewHolder
         holder.txt_dropT.setText(item.getDate_s());
         holder.txt_drop.setText(item.getDropP());
         holder.txt_pickT.setText(item.getCarnumber());
-        holder.txt_pick.setText(item.getPickP());
+        holder.txt_pick.setText(item.getPayment());
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                clicklistener.onItemClick(mitemArrayList.get(position));
-            }
-        });
 
     }
 
@@ -82,8 +74,6 @@ public class User_adapter extends RecyclerView.Adapter<User_adapter.MyViewHolder
         }
     }
 
-    public interface ItemClicklistener{
-        public void onItemClick(User item);
-    }
+
 
 }

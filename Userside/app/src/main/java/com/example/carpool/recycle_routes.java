@@ -16,11 +16,13 @@ import java.util.List;
 public class recycle_routes extends AppCompatActivity {
     private Scheduleviewmodel mschedviewmodel;
     RecyclerView recyclerview;
+
     @Override
     public void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recycle_view);
         recyclerview=findViewById(R.id.recycle01);
+
         recyclerview.setLayoutManager(new LinearLayoutManager(this));
         Log.d("SET", "CHECK 1 ");
         final Myadapter adapter = new Myadapter(new Myadapter.ItemClicklistener() {
@@ -32,7 +34,9 @@ public class recycle_routes extends AppCompatActivity {
                 i.putExtra("getDate_s",item.getDate_s());
                 i.putExtra("getPickP",item.getPickP());
                 i.putExtra("getCarnumber",item.getCarnumber());
+                i.putExtra("Rider",item.getFirebase());
                 startActivity(i);
+                finish();
             }
         });
         recyclerview.setAdapter(adapter);
@@ -45,6 +49,7 @@ public class recycle_routes extends AppCompatActivity {
             public void onChanged(List<schedule> schedules) {
                 Log.d("SET", "CHECK 4 ");
                 Log.d("SET", schedules.toString());
+
 
                 adapter.setMitemArrayList(schedules);
                 Log.d("SET",schedules.toString());

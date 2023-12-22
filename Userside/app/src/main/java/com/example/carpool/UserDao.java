@@ -24,10 +24,12 @@ public interface  UserDao {
     void deleteAlluser();
 
     @Query("SELECT * FROM user WHERE currentUser = :valueToCheck")
-    LiveData<List<User>> getAlltrips(String valueToCheck);
+    LiveData<List<User>> getAlltrips_cart(String valueToCheck);
     @Query("SELECT COUNT(*) FROM user WHERE carnumber = :valueToCheck and PickP = :valueToCheck2")
     int countByValue(String valueToCheck, String valueToCheck2 );
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(List<User> entities);
+    @Query("SELECT * FROM user WHERE currentUser = :valueToCheck and status != :valueToCheck2")
+    LiveData<List<User>> getAlltrips_history(String valueToCheck,String valueToCheck2);
 }

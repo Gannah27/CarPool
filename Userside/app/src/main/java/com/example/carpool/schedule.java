@@ -10,9 +10,34 @@ public class schedule {
     private String PickP;
     private String DropP;
     private String Date_s;
-
     private String carnumber;
+    private  String Firebase;
+    private String confirm;
 
+    public schedule(String pickP, String dropP, String date_s, String carnumber, String firebase, String confirm) {
+        PickP = pickP;
+        DropP = dropP;
+        Date_s = date_s;
+        this.carnumber = carnumber;
+        Firebase = firebase;
+        this.confirm = confirm;
+    }
+
+    public String getFirebase() {
+        return Firebase;
+    }
+
+    public void setFirebase(String firebase) {
+        Firebase = firebase;
+    }
+
+    public String getConfirm() {
+        return confirm;
+    }
+
+    public void setConfirm(String confirm) {
+        this.confirm = confirm;
+    }
 
     public void setDate_s(String date_s) {
         Date_s = date_s;
@@ -30,13 +55,6 @@ public class schedule {
         PickP = pickP;
     }
 
-
-    public schedule(String pickP, String dropP, String date_s, String carnumber) {
-        PickP = pickP;
-        DropP = dropP;
-        Date_s = date_s;
-        this.carnumber = carnumber;
-    }
 
     public schedule() {
     }

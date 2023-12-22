@@ -16,13 +16,33 @@ public class User {
     private String Date_s;
     private String currentUser;
     private String payment;
-    public User(String pickP, String dropP, String carnumber, String dateS, String payment,String currentUser) {
+    private String rider;
+
+    public String getRider() {
+        return rider;
+    }
+
+    public void setRider(String rider) {
+        this.rider = rider;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    private String status;
+    public User(String pickP, String dropP, String carnumber, String dateS, String payment,String currentUser,String rider) {
         PickP = pickP;
         DropP = dropP;
         this.carnumber = carnumber;
         Date_s = dateS;
         this.currentUser = currentUser;
         this.payment=payment;
+        this.rider=rider;
     }
 
     public User() {

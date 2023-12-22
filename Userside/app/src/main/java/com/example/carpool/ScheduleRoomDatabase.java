@@ -45,19 +45,7 @@ public abstract class ScheduleRoomDatabase extends RoomDatabase {
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
             Log.d("SET", "DBCALLBACK");
-            // If you want to keep data through app restarts,
-            // comment out the following block
-           /* databaseWriteExecutor.execute(() -> {
-                // Populate the database in the background.
-                // If you want to start with more words, just add them.
-                scheduleDao dao = instance.schedDao();
 
-
-                schedule sche = new schedule("4:30","Gate4","5:30","nasrcity");
-                dao.insert(sche);
-                sche = new schedule("4:30","Gate3","6:30","masrgdedida");
-                dao.insert(sche);
-            });*/
         }
     };
 }
